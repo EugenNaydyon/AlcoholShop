@@ -1,3 +1,13 @@
+:root {
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #000000;
+}
+
 body {
-  background-color: aquamarine;
+  background-color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+}
+
+ul {
+  list-style: none;
 }
