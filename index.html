@@ -7,312 +7,329 @@
     <title>AlcoholShop</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="">МАГАЗИН</a>
+  <body class="body">
+    <header class="header">
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">МАГАЗИН</a>
           </li>
-          <li>
-            <a href="">КЛУБ</a>
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">КЛУБ</a>
           </li>
-          <li>
-            <a href="">НАША ИСТОРИЯ</a>
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">НАША ИСТОРИЯ</a>
           </li>
         </ul>
       </nav>
-      <h2>Бухло</h2>
-      <nav>
-        <ul>
-          <li>
-            <a href="">НОВОСТИ</a>
+      <img src="" alt="logo" class="logo">
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">НОВОСТИ</a>
           </li>
-          <li>
-            <a href="">УЧЕТКА</a>
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">УЧЕТКА</a>
           </li>
-          <li>
-            <a href="">КОРЗИНА</a>
+          <li class="site-nav__item">
+            <a href="" class="site-nav__link">КОРЗИНА</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <!--HERO-->
-      <section #id="hero">
-        <img src="" alt="HERO">
-        <h1>Алкоголь для современного питья</h1>
-          <p>
+      <section class="hero">
+        <img src="" alt="HERO" class="hero__img">
+        <h1 class="hero__head">Алкоголь для современного питья</h1>
+          <p class="hero__text">
             Легкие и освежающие ароматы, приготовленные из настоящих,
             чистых ингредиентов, от которых вы можете чувствовать себя
             хорошо. Просто налейте, пейте и наслаждайтесь.
           </p>
-          <button class="button hero">КУПИТЬ ВСЕ</button>
+          <button class="button hero__button--shopall">КУПИТЬ ВСЕ</button>
       </section>
 
       <!--ADVANTAGES-->
-      <section #id="advantages">
-        <h2 hidden>Преимущества</h2>
-        <ul>
-          <li>
-            <p>
-              "«Что делает Haus таким особенным, так это его невероятный вкус»."
-            </p>
-            <img src="" alt="FOOD&WINE" />
-          </li>
-          <li>
-            <p>
-              "«Для любителя вина или коктейлей, который попробовал все и хочет
-              чего-то нового и освежающего»."
-            </p>
-            <img src="" alt="The New Work Times" />
-          </li>
-          <li>
-            <p>
-              «Более чистое, качественное сырье и с меньшим содержанием
-              алкоголя».
-            </p>
-            <img src="" alt="bon appetit" />
-          </li>
-        </ul>
+      <section class="advantages">
+        <div class="container">
+          <h2 hidden>Преимущества</h2>
+          <ul class="advantages-list">
+            <li class="advantages-list__item">
+              <p class="advantages-list__text">
+                "«Что делает Haus таким особенным, так это его невероятный вкус»."
+              </p>
+              <img src="" alt="FOOD&WINE" class="advantages-list__img">
+            </li>
+            <li class="advantages-list__item">
+              <p class="advantages-list__text">
+                "«Для любителя вина или коктейлей, который попробовал все и хочет
+                чего-то нового и освежающего»."
+              </p>
+              <img src="" alt="The New Work Times" class="advantages-list__img">
+            </li>
+            <li class="advantages-list__item">
+              <p class="advantages-list__text">
+                «Более чистое, качественное сырье и с меньшим содержанием
+                алкоголя».
+              </p>
+              <img src="" alt="bon appetit" class="advantages-list__img">
+            </li>
+          </ul>
+        </div>   
       </section>
 
       <!--INGRIDIENTS-->
       <section class="ingridients">
-          <h2>Сделано из натуральных ингредиентов, никаких подделок</h2>
-          <p>Магазин всех ароматов</p>
-          <ul>
-            <li>
-              <img src="" alt="Пробники алкоголя" />
-              <h3>Комплект пробников</h3>
-              <p>
+        <div class="container">
+          <h2 class="ingridients-head">Сделано из натуральных ингредиентов, никаких подделок</h2>
+          <p class="ingridients-text">Магазин всех ароматов</p>
+          <ul class="ingridients-list">
+            <li class="ingridients-list__item">
+              <img src="" alt="Пробники алкоголя" class="ingridients-list__img">
+              <h3 class="ingridients-list__head">Комплект пробников</h3>
+              <p class="ingridients-list__text">
                 Попробуйте разнообразные вкусы Haus с помощью нашего
                 настраиваемого набора из четырех бутылок. Каждая бутылка
                 рассчитана на 2-3 напитка.
               </p>
-              <button class="button ingridients">КУПИТЬ СЕЙЧАС</button>
+              <button class="button ingridients__button--buynow">КУПИТЬ СЕЙЧАС</button>
             </li>
-            <li>
-              <img src="" alt="Девушка с грейпфруктовым апперитивом" />
-              <h3>Грейпфрутовый коктейль</h3>
-              <p>
+            <li class="ingridients-list__item">
+              <img src="" alt="Девушка с грейпфруктовым апперитивом" class="ingridients-list__img">
+              <h3 class="ingridients-list__head">Грейпфрутовый коктейль</h3>
+              <p class="ingridients-list__text">
                 Этот легкий и освежающий аперитив представляет собой яркую смесь
                 цитрусовых с легким привкусом свежего грейпфрута.
               </p>
-              <button class="button ingridients">КУПИТЬ СЕЙЧАС</button>
+              <button class="button ingridients__button--buynow">КУПИТЬ СЕЙЧАС</button>
             </li>
-            <li>
-              <img src="" alt="Девушка с цитрусовым напитком" />
-              <h3>Цитрусовый цветок</h3>
-              <p>
+            <li class="ingridients-list__item">
+              <img src="" alt="Девушка с цитрусовым напитком" class="ingridients-list__img">
+              <h3 class="ingridients-list__head">Цитрусовый цветок</h3>
+              <p class="ingridients-list__text">
                 Свежий калифорнийский взгляд на аперитив. Сделано из хрустящего
                 лимона и нежной бузины.
               </p>
-              <button class="button ingridients">КУПИТЬ СЕЙЧАС</button>
+              <button class="button ingridients__button--buynow">КУПИТЬ СЕЙЧАС</button>
             </li>
           </ul>
         </div>
       </section>
 
       <!--APERITIFS-->
-      <section #id="aperitifs">
-        <img src="" alt="Бокалы с апперитивом" />
-        <h2>Вступление к апперитивам</h2>
-        <p>
-          Аперитивы - это категория спиртных напитков со сложным вкусом
-          фруктов, трав и растений. Их более легкое содержание алкоголя
-          (меньше, чем виски, больше, чем у вина) делает их идеальными для
-          питья весь вечер.
-        </p>
+      <section class="aperitifs">
+        <div class="container">
+          <img src="" alt="Бокалы с апперитивом" class="aperitifs__img">
+          <h2 class="aperitifs__head">Вступление к апперитивам</h2>
+          <p class="aperitifs__text">
+            Аперитивы - это категория спиртных напитков со сложным вкусом
+            фруктов, трав и растений. Их более легкое содержание алкоголя
+            (меньше, чем виски, больше, чем у вина) делает их идеальными для
+            питья весь вечер.
+          </p>
+        </div>
       </section>
 
       <!--EASY TO DRINK-->
-      <section #id="easyToDrink">
-        <h2 hidden>Как и что мы пьем</h2>
-        <ul>
-            <li>
-              <h3>Пить легко</h3>
-              <p>
+      <section class="easyToDrink">
+        <div class="container">
+          <h2 hidden>Как и что мы пьем</h2>
+          <ul class="drinking-list">
+            <li class="drinking-list__item">
+              <h3 class="drinking-list__head">Пить легко</h3>
+              <p class="drinking-list__text">
                 Идеальный напиток в любое время, попробуйте Бухло самостоятельно
                 или с помощью простых миксеров, например газировки или тоника,
                 которые у вас, вероятно, уже есть.
               </p>
             </li>
-            <li>
-              <h3>Натуральные ингридиенты. Никаких подделок</h3>
-              <p>
+            <li class="drinking-list__item">
+              <h3 class="drinking-list__head">Натуральные ингридиенты. Никаких подделок</h3>
+              <p class="drinking-list__text">
                 Искусственные ингредиенты и рафинированный сахар - большие
                 виновники похмелья. Получайте удовольствие от того, что было в
                 вашем стакане той ночью - и на следующий день.
               </p>
             </li>
-            <li>
-              <h3>Доставим к вашей двери</h3>
-              <p>
+            <li class="drinking-list__item">
+              <h3 class="drinking-list__head">Доставим к вашей двери</h3>
+              <p class="drinking-list__text">
                 Мы смешиваем, разливаем в бутылки и отправляем нашу продукцию
                 прямо с Новопавловки, район Никополя, к вашему порогу.
               </p>
             </li>
           </ul>
-          <img src="" alt="Руки берут бутылку и стакан" />
+          <img src="" alt="Руки берут бутылку и стакан" class="easyToDrink__img">
+        </div>
       </section>
 
       <!--REVIEWS-->
-      <section #id="reviews">
-        <h2 hidden>Отзывы</h2>
-          <ul>
-            <li>
-              <p>"Бухло нашел решение, о котором я даже не подозревала!"</p>
-              <p>- Елена</p>
-              <p>Покупатель Эксперт</p>
+      <section class="reviews">
+        <div class="container">
+          <h2 hidden>Отзывы</h2>
+          <ul class="reviews-list">
+            <li class="reviews-list__item">
+              <p class="reviews-list_text">"Бухло нашел решение, о котором я даже не подозревала!"</p>
+              <p class="reviews-list__reviewer">- Елена</p>
+              <p class="reviews-list__buyer">Покупатель Эксперт</p>
             </li>
-            <li>
-              <p>
+            <li class="reviews-list__item">
+              <p class="reviews-list_text">
                 "Мне нравится вкус этого аперитива - он легкий и живой, он
                 освежает зельтером или тоником».
               </p>
-              <p>- Алёна</p>
-              <p>Покупатель Эксперт</p>
+              <p class="reviews-list__reviewer">- Алёна</p>
+              <p class="reviews-list__buyer">Покупатель Эксперт</p>
             </li>
-            <li>
-              <p>
+            <li class="reviews-list__item">
+              <p class="reviews-list_text">
                 "Это вкусно и неповторимо. Мне нравится все, от упаковки до
                 ароматов».
               </p>
-              <p>- Тарас</p>
-              <p>Покупатель Эксперт</p>
+              <p class="reviews-list__reviewer">- Тарас</p>
+              <p class="reviews-list__buyer">Покупатель Эксперт</p>
             </li>
           </ul>
+        </div>
       </section>
 
       <!--MANUFACTURING-->
-      <section #id="manufacturing">
-        <h2 hidden>Производство</h2>
-        <img src="" alt="Растения" />
-        <h3>Мы делаем вещи, отличные от других производителей</h3>
-          <p>
+      <section class="manufacturing">
+        <div class="container">
+          <h2 hidden>Производство</h2>
+          <img src="" alt="Растения" class="manufacturing__img">
+          <h3 class="manufacturing__head">Мы делаем вещи, отличные от других производителей</h3>
+          <p class="manufacturing__text">
             Наши ароматизаторы получены из настоящих фруктов, трав и
             растений, а не из лабораторных ингредиентов. Мы не учитываем
             искусственные ингредиенты и лишний сахар и рассказываем, что
             внутри. Это лучший способ пить.
           </p>
-        <p>УЗНАТЬ БОЛЬШЕ</p>
+          <p class="manufacturing_link">УЗНАТЬ БОЛЬШЕ</p>
+        </div>
       </section>
 
       <!--SET THE MOOD-->
       <section class="setTheMood">
-      <img src="" alt="Поляна">
-      <h2>Создайте настроение</h2>
-      <p>Плейлисты от <span lang="en">Woody + Helena</span>, а также некоторые из наших друзей и любимых брендов.</p>
-      <a href=""><!--ссылка на внешний ресурс-->
-        <button lang="en" class="button setTheMood">SPOTIFY</button>
-      </a>
-      <p>Следуйте за нами, делитесь с нами, пейте с нами</p>
-      <ul>
-        <li>
-          <a href="" aria-label="INSTAGRAM">INSTAGRAM</a>
-        </li>
-        <li>
-          <a href="" aria-label="TWITTER">TWITTER</a>
-        </li>
-        <li>
-          <a href="" aria-label="FACEBOOK">FACEBOOK</a>
-        </li>
-      </ul>
+        <div class="container">
+          <img src="" alt="Поляна" class="setTheMood__img">
+          <h2 class="setTheMood__head">Создайте настроение</h2>
+          <p class="setTheMood__playlist">Плейлисты от <span lang="en" class="setTheMood__span">Woody + Helena</span>, а также некоторые из наших друзей и любимых брендов.</p>
+          <button lang="en" class="button setTheMood__buton--spotify">SPOTIFY</button>
+          <p class="setTheMood__text">Следуйте за нами, делитесь с нами, пейте с нами</p>
+          <ul class="setTheMood__list">
+            <li class="setTheMood__item">
+              <a href="" aria-label="INSTAGRAM" class="setTheMood__link">INSTAGRAM</a>
+            </li>
+            <li class="setTheMood__item">
+              <a href="" aria-label="TWITTER" class="setTheMood__link">TWITTER</a>
+            </li>
+            <li class="setTheMood__item">
+              <a href="" aria-label="FACEBOOK" class="setTheMood__link">FACEBOOK</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <h2>Будьте в курсе</h2>
-      <p>
-        Давай будем друзьями. Подпишитесь на нашу рассылку, чтобы получать обновления о новых выпусках, рецептах, плейлистах и
-        многом другом.
-      </p>
-      <form action="">SUBMIT</form>
-      <ul>
-        <ul>
-          <li>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="container">
+        <div class="posted">
+          <h2 class="posted__head">Будьте в курсе</h2>
+          <p class="posted__text">
+            Давай будем друзьями. Подпишитесь на нашу рассылку, чтобы получать обновления о новых выпусках, рецептах, плейлистах и
+            многом другом.
+          </p>
+          <form action="" class="form">SUBMIT</form>
+        </div>
+        <div class="dropus"></div>
+        <ul class="dropus__list">
+          <li class="dropus__list-head">
             ИССЛЕДУЙТЕ
           </li>
-          <li>
-            <a href="">ГЛАВНАЯ</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">ГЛАВНАЯ</a>
           </li>
-          <li>
-            <a href="">МАГАЗИН</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">МАГАЗИН</a>
           </li>
-          <li>
-            <a href="">КЛУБ</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">КЛУБ</a>
           </li>
-          <li>
-            <a href="">НАША ИСТОРИЯ</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">НАША ИСТОРИЯ</a>
           </li>
-          <li>
-            <a href="" lang="en">FAQ</a>
+          <li class="dropus__item">
+            <a href="" lang="en" class="dropus__link">FAQ</a>
           </li>
-          <li>
-            <a href="">ПРИВЕДИ ДРУГА</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">ПРИВЕДИ ДРУГА</a>
           </li>
-          <li>
-            <a href="">КОРПОРАТИВНЫЕ ПОДАРКИ</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">КОРПОРАТИВНЫЕ ПОДАРКИ</a>
           </li>
-          <li>
-            <a href="">ПОДАРОЧНАЯ КАРТА</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">ПОДАРОЧНАЯ КАРТА</a>
           </li>
         </ul>
-        <ul>
-          <li>
+        <ul class="dropus__list">
+          <li class="dropus__list-head">
             СЛЕДУЙТЕ
           </li>
-          <li>
-            <a href="">INSTAGRAM</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">INSTAGRAM</a>
           </li>
-          <li>
-            <a href="">SPOTIFY</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">SPOTIFY</a>
           </li>
-          <li>
-            <a href="">TWITTER</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">TWITTER</a>
           </li>
-          <li>
-            <a href="">FACEBOOK</a>
+          <li class="dropus__item">
+            <a href="" class="dropus__link">FACEBOOK</a>
           </li>
         </ul>
-        <ul>
-          <li>
+        <ul class="dropus__list">
+          <li class="dropus__list-head">
             НАПИШИТЕ НАМ
           </li>
-          <li>
-            <a href="mailto:hello@drink.haus">hello@drink.haus</a>
+          <li class="dropus__item">
+            <a href="mailto:hello@drink.haus" class="dropus__link">hello@drink.haus</a>
           </li>
-          <li>
-            <a href="mailto:press@drink.haus">press@drink.haus</a>
+          <li class="dropus__item">
+            <a href="mailto:press@drink.haus" class="dropus__link">press@drink.haus</a>
           </li>
-          <li>
-            <a href="mailto:partnerships@drink.haus">partnerships@drink.haus</a>
+          <li class="dropus__item">
+            <a href="mailto:partnerships@drink.haus" class="dropus__link">partnerships@drink.haus</a>
           </li>
-          <li>
-            <a href="mailto:jobs@drink.haus">jobs@drink.haus</a>
+          <li class="dropus__item">
+            <a href="mailto:jobs@drink.haus" class="dropus__link">jobs@drink.haus</a>
           </li>
-          <li>
-            <a href="mailto:wholesale@drink.haus">wholesale@drink.haus</a>
+          <li class="dropus__item">
+            <a href="mailto:wholesale@drink.haus" class="dropus__link">wholesale@drink.haus</a>
           </li>
         </ul>
-        <ul>
-          <li>
-            &copy; Бухло 2021
+      </div>
+      
+        <ul class="footer-copyright">
+          <li class="footer-copyright_item">
+            &copy; Haus 2021
           </li>
-          <li>
+          <li class="footer-copyright_item">
             <a href="">Контакты</a>
           </li>
-          <li>
+          <li class="footer-copyright_item">
             <a href="">Политика возврата</a>
           </li>
-          <li>
+          <li class="footer-copyright_item">
             <a href="">Политика конфиденциальности</a>
           </li>
-          <li>
+          <li class="footer-copyright_item">
             <a href="">Сроки &amp; Условия</a>
           </li>
-        </ul>
-      </ul>  
+        </ul> 
     </footer>
   </body>
 </html>
