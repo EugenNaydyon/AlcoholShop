@@ -1,13 +1,44 @@
 :root {
+  --body-background-color: #ffffff;
   --primary-text-color: #ffffff;
   --secondary-text-color: #000000;
-}
-
-body {
-  background-color: var(--primary-text-color);
-  color: var(--secondary-text-color);
+  --button-background-color: #000000;
 }
 
 ul {
   list-style: none;
+}
+
+/* BUTTON */
+.button {
+  background-color: var(--button-background-color);
+  height: 52px;
+  width: 180px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.button.hero {
+  background-color: rgba(255, 255, 255, 100%);
+}
+
+.button.ingridients {
+  color: #ffffff;
+}
+
+.button.setTheMood {
+  background-color: #ffffff;
+}
+
+/* BODY */
+body {
+  background-color: var(--body-background-color);
+  color: var(--secondary-text-color);
 }
