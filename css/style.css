@@ -5,8 +5,12 @@
   --button-background-color: #000000;
 }
 
-ul {
+.list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* BUTTON */
@@ -33,7 +37,7 @@ ul {
   color: #ffffff;
 }
 
-.setTheMood__buton--spotify {
+.setTheMood__button--spotify {
   background-color: #ffffff;
 }
 
@@ -41,4 +45,10 @@ ul {
 .body {
   background-color: var(--body-background-color);
   color: var(--secondary-text-color);
+}
+
+/* HEADER */
+
+.logo {
+  background-color: aquamarine;
 }
