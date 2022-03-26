@@ -108,3 +108,225 @@
 } */
 
 /* ========== END HERO ========== */
+
+/* ========== ADVANTAGES ========== */
+.advantages-list__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: #000000;
+}
+/* ========== END ADVANTAGES ========== */
+
+/* ========== INGRIDIENTS ========== */
+.ingridients-head {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.25;
+  text-align: center;
+}
+.ingridients-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.ingridients-list__head {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.47;
+  text-align: center;
+}
+
+.ingridients-list__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+}
+
+/* ========== END INGRIDIENTS ========== */
+
+/* ========== APERITIFS ========== */
+.aperitifs__head {
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 1.51;
+}
+
+.aperitifs__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+/* ========== END APERITIFS ========== */
+
+/* ========== EASY TO DRINK ========== */
+.drinking-list__head {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.47;
+  color: #000000;
+}
+
+.drinking-list__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #000000;
+}
+
+.drinking-list__head--natural {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.23;
+  color: #000000;
+}
+/* ========== END EASY TO DRINK ========== */
+
+/* ========== REVIEWS ========== */
+.reviews-list_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  /* color: #ffffff; */
+}
+
+.reviews-list__reviewer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
+}
+
+.reviews-list__buyer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: capitalize;
+  color: #8a8a8a;
+}
+/* ========== END REVIEWS ========== */
+
+/* ========== MANUFACTURING ========== */
+.manufacturing__head {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.25;
+  color: #000000;
+}
+
+.manufacturing__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #000000;
+}
+
+.manufacturing_link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/* ========== END MANUFACTURING ========== */
+
+/* ========== SET THE MOOD ========== */
+.setTheMood__head {
+  font-size: 55px;
+  line-height: 1.45;
+  text-align: center;
+  /* color: #FFFFFF; */
+}
+
+.setTheMood__playlist {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  /* color: #FFFFFF; */
+}
+
+.followus__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  /* color: #FFFFFF; */
+}
+
+.followus__link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.followus__link:hover,
+.followus__link:focus {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* ========== END SET THE MOOD ========== */
+
+/* ========== FOOTER ========== */
+.posted__head {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.72;
+  /* color: #FFFFFF; */
+}
+
+.posted__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  /* color: #FFFFFF; */
+}
+
+.dropus__list-head {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.dropus__link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-copyright_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-copyright_item {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  /* color: #FFFFFF; */
+}
+/* ========== END FOOTER ========== */
