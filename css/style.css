@@ -7,16 +7,9 @@
   --secondary-font: 'Roboto Serif', serif;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
 /* ========== BODY ==========*/
 .body {
+  width: 1440px;
   background-color: var(--body-background-color);
   color: var(--secondary-text-color);
   font-family: var(--main-font);
@@ -26,7 +19,24 @@
 
 /* ========== END BODY ==========*/
 
-/* ========== COMPONENTS ========== */
+/* ========== COMPONENTS and UTILITES========== */
+.container {
+  outline: 2px solid tomato;
+  width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .button {
   background-color: var(--button-background-color);
   height: 52px;
@@ -56,11 +66,26 @@
 
 .heads {
   font-family: var(--secondary-font);
+  margin: 0 0;
+}
+
+p,
+ul {
+  margin: 0 0;
+  padding: 0 0;
 }
 
 /* ========== END COMPONENTS ========== */
 
 /* ========== HEADER ========== */
+
+.header {
+  /* outline: 2px solid tomato; */
+}
+
+.site-nav__list {
+  display: flex;
+}
 
 .logo {
   background-color: aquamarine;
@@ -83,6 +108,11 @@
 /* ========== END HEADER ========== */
 
 /* ========== HERO ========== */
+
+.hero {
+  display: flex;
+  outline: 1px solid tomato;
+}
 .hero__head {
   font-weight: 400;
   font-size: 73px;
@@ -109,15 +139,36 @@
 /* ========== END HERO ========== */
 
 /* ========== ADVANTAGES ========== */
+
+.advantages {
+  /* outline: 1px solid teal; */
+}
+
+.advantages-list__item {
+  outline: 1px solid teal;
+}
+
 .advantages-list__text {
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
   color: #000000;
 }
+
+.advantages-list {
+  display: flex;
+}
 /* ========== END ADVANTAGES ========== */
 
 /* ========== INGRIDIENTS ========== */
+.ingridients {
+  outline: 1px solid tomato;
+}
+
+.ingridients-list {
+  display: flex;
+}
+
 .ingridients-head {
   font-weight: 400;
   font-size: 64px;
@@ -148,7 +199,15 @@
 /* ========== END INGRIDIENTS ========== */
 
 /* ========== APERITIFS ========== */
-.aperitifs__head {
+.aperitifs {
+  outline: 1px solid teal;
+}
+
+.aperitifs__description {
+  display: flex;
+}
+
+. .aperitifs__head {
   font-weight: 400;
   font-size: 53px;
   line-height: 1.51;
@@ -162,6 +221,14 @@
 /* ========== END APERITIFS ========== */
 
 /* ========== EASY TO DRINK ========== */
+.easyToDrink {
+  outline: 1px solid tomato;
+}
+
+.easyToDrink__container {
+  display: flex;
+}
+
 .drinking-list__head {
   font-weight: 400;
   font-size: 30px;
@@ -184,6 +251,18 @@
 /* ========== END EASY TO DRINK ========== */
 
 /* ========== REVIEWS ========== */
+.reviews {
+  outline: 1px solid tomato;
+}
+
+.reviews-list {
+  display: flex;
+}
+
+.reviews-list__item {
+  outline: 1px solid tomato;
+}
+
 .reviews-list_text {
   font-size: 18px;
   line-height: 1.78;
@@ -209,6 +288,14 @@
 /* ========== END REVIEWS ========== */
 
 /* ========== MANUFACTURING ========== */
+.manufacturing {
+  outline: 1px solid teal;
+}
+
+.manufacturing__container {
+  display: flex;
+}
+
 .manufacturing__head {
   font-weight: 400;
   font-size: 64px;
@@ -232,26 +319,46 @@
 /* ========== END MANUFACTURING ========== */
 
 /* ========== SET THE MOOD ========== */
+.setTheMood {
+  background: #000;
+  width: 550px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .setTheMood__head {
   font-weight: 400;
   font-size: 55px;
   line-height: 1.45;
   text-align: center;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 .setTheMood__playlist {
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
-  /* color: #FFFFFF; */
+  color: #ffffff;
+}
+
+.followus {
+  background: #000;
+  width: 550px;
+  padding-top: 28px;
+  padding-bottom: 35px;
+  margin-top: 20px;
+}
+
+.followus__list {
+  display: flex;
 }
 
 .followus__text {
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
-  /* color: #FFFFFF; */
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .followus__link {
@@ -260,7 +367,7 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .followus__link:hover,

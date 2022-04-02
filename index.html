@@ -13,46 +13,49 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="body">
-    <header class="header">
-      <nav class="site-nav">
-        <ul class="site-nav__list">
-          <li class="site-nav__item list">
-            <a href="" class="site-nav__link link">МАГАЗИН</a>
-          </li>
-          <li class="site-nav__item list">
-            <a href="" class="site-nav__link link">КЛУБ</a>
-          </li>
-          <li class="site-nav__item list">
-            <a href="" class="site-nav__link link">НАША ИСТОРИЯ</a>
-          </li>
-        </ul>
-      </nav>
-      <img src="./images/header/logo.png" alt="logo" class="logo">
-      <nav class="site-nav">
-        <ul class="site-nav__list">
-          <li class="site-nav__item list">
-            <a href="" class="site-nav__link link">НОВОСТИ</a>
-          </li>
-          <li class="site-nav__item list">
-            <a href="" class="site-nav__link link">УЧЕТКА</a>
-          </li>
-          <li class="site-nav__item list">
-            <a href="" class="site-nav__link link">КОРЗИНА</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="header">
+        <nav class="site-nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link link">МАГАЗИН</a>
+            </li>
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link link">КЛУБ</a>
+            </li>
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link link">НАША ИСТОРИЯ</a>
+            </li>
+            <li class="site-nav__item list">
+              <img src="./images/header/logo.png" alt="logo" class="logo">
+            </li>
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link link">НОВОСТИ</a>
+            </li>
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link link">УЧЕТКА</a>
+            </li>
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link link">КОРЗИНА</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    
     <main>
       <!--HERO-->
       <section class="hero">
         <img src="./images/hero/hero.jpg" alt="HERO" class="hero__img">
-        <h1 class="heads hero__head">Алкоголь для современного питья</h1>
+        <div class="hero__description">
+          <h1 class="heads hero__head">Алкоголь для современного питья</h1>
           <p class="hero__text">
             Легкие и освежающие ароматы, приготовленные из настоящих,
             чистых ингредиентов, от которых вы можете чувствовать себя
             хорошо. Просто налейте, пейте и наслаждайтесь.
           </p>
           <button class="button hero__button--shopall">КУПИТЬ ВСЕ</button>
+        </div>
       </section>
 
       <!--ADVANTAGES-->
@@ -126,45 +129,50 @@
       <section class="aperitifs">
         <div class="container">
           <img src="./images/aperitifs/aperitifs.jpg" alt="Бокалы с апперитивом" class="aperitifs__img">
-          <h2 class="heads aperitifs__head">Вступление к апперитивам</h2>
-          <p class="aperitifs__text">
-            Аперитивы - это категория спиртных напитков со сложным вкусом
-            фруктов, трав и растений. Их более легкое содержание алкоголя
-            (меньше, чем виски, больше, чем у вина) делает их идеальными для
-            питья весь вечер.
-          </p>
+          <div class="aperitifs__description">
+            <h2 class="heads aperitifs__head">Вступление к апперитивам</h2>
+            <p class="aperitifs__text">
+              Аперитивы - это категория спиртных напитков со сложным вкусом
+              фруктов, трав и растений. Их более легкое содержание алкоголя
+              (меньше, чем виски, больше, чем у вина) делает их идеальными для
+              питья весь вечер.
+            </p>
+          </div>
         </div>
       </section>
 
       <!--EASY TO DRINK-->
       <section class="easyToDrink">
-        <div class="container">
-          <h2 hidden>Как и что мы пьем</h2>
-          <ul class="drinking-list">
-            <li class="drinking-list__item list">
-              <h3 class="heads drinking-list__head">Пить легко</h3>
-              <p class="drinking-list__text">
-                Идеальный напиток в любое время, попробуйте Бухло самостоятельно
-                или с помощью простых миксеров, например газировки или тоника,
-                которые у вас, вероятно, уже есть.
-              </p>
-            </li>
-            <li class="drinking-list__item list">
-              <h3 class="heads drinking-list__head--natural">Натуральные ингридиенты. Никаких подделок</h3>
-              <p class="drinking-list__text">
-                Искусственные ингредиенты и рафинированный сахар - большие
-                виновники похмелья. Получайте удовольствие от того, что было в
-                вашем стакане той ночью - и на следующий день.
-              </p>
-            </li>
-            <li class="drinking-list__item list">
-              <h3 class="heads drinking-list__head">Доставим к вашей двери</h3>
-              <p class="drinking-list__text">
-                Мы смешиваем, разливаем в бутылки и отправляем нашу продукцию
-                прямо с Новопавловки, район Никополя, к вашему порогу.
-              </p>
-            </li>
-          </ul>
+        <div class="container easyToDrink__container">
+          <div class="easyToDrink__description">
+            <h2 hidden>Как и что мы пьем</h2>
+            <ul class="drinking-list">
+              <li class="drinking-list__item list">
+                <h3 class="heads drinking-list__head">Пить легко</h3>
+                <p class="drinking-list__text">
+                  Идеальный напиток в любое время, попробуйте Бухло самостоятельно
+                  или с помощью простых миксеров, например газировки или тоника,
+                  которые у вас, вероятно, уже есть.
+                </p>
+              </li>
+              <li class="drinking-list__item list">
+                <h3 class="heads drinking-list__head--natural">Натуральные ингридиенты. Никаких подделок</h3>
+                <p class="drinking-list__text">
+                  Искусственные ингредиенты и рафинированный сахар - большие
+                  виновники похмелья. Получайте удовольствие от того, что было в
+                  вашем стакане той ночью - и на следующий день.
+                </p>
+              </li>
+              <li class="drinking-list__item list">
+                <h3 class="heads drinking-list__head">Доставим к вашей двери</h3>
+                <p class="drinking-list__text">
+                  Мы смешиваем, разливаем в бутылки и отправляем нашу продукцию
+                  прямо с Новопавловки, район Никополя, к вашему порогу.
+                </p>
+              </li>
+            </ul>
+          </div>
+          
           <img src="./images/easy-to-drink/easy-to-drink.jpg" alt="Руки берут бутылку и стакан" class="easyToDrink__img">
         </div>
       </section>
@@ -201,17 +209,19 @@
 
       <!--MANUFACTURING-->
       <section class="manufacturing">
-        <div class="container">
+        <div class="container manufacturing__container">
           <h2 hidden>Производство</h2>
           <img src="./images/manufact/manufacturing.jpg" alt="Растения" class="manufacturing__img">
-          <h3 class="heads manufacturing__head">Мы делаем вещи, отличные от других производителей</h3>
-          <p class="manufacturing__text">
-            Наши ароматизаторы получены из настоящих фруктов, трав и
-            растений, а не из лабораторных ингредиентов. Мы не учитываем
-            искусственные ингредиенты и лишний сахар и рассказываем, что
-            внутри. Это лучший способ пить.
-          </p>
-          <p class="manufacturing_link">УЗНАТЬ БОЛЬШЕ</p>
+          <div class="manufacturing__description">
+            <h3 class="heads manufacturing__head">Мы делаем вещи, отличные от других производителей</h3>
+            <p class="manufacturing__text">
+              Наши ароматизаторы получены из настоящих фруктов, трав и
+              растений, а не из лабораторных ингредиентов. Мы не учитываем
+              искусственные ингредиенты и лишний сахар и рассказываем, что
+              внутри. Это лучший способ пить.
+            </p>
+            <p class="manufacturing_link">УЗНАТЬ БОЛЬШЕ</p>
+          </div>
         </div>
       </section>
 
