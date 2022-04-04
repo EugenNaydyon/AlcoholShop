@@ -79,12 +79,30 @@ ul {
 
 /* ========== HEADER ========== */
 
-.header {
-  /* outline: 2px solid tomato; */
-}
+/* .header {
+  outline: 2px solid tomato;
+} */
 
 .site-nav__list {
   display: flex;
+  align-items: center;
+}
+
+.site-nav__item:nth-child(-n + 2) {
+  margin-right: 60px;
+}
+
+.site-nav__item:nth-child(4) {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-nav__item:nth-child(5){
+  margin-right: 64px;
+}
+
+.site-nav__item:nth-child(6) {
+  margin-right: 64px;
 }
 
 .logo {
@@ -113,16 +131,29 @@ ul {
   display: flex;
   outline: 1px solid tomato;
 }
+
+.hero__description {
+width: 600px;
+margin-top: auto;
+margin-bottom: 100px;
+margin-right: auto;
+margin-left: auto;
+}
+
 .hero__head {
   font-weight: 400;
   font-size: 73px;
   line-height: 1.32;
+
+  margin-bottom: 34px;
   /* color: #ffffff; */
 }
 
 .hero__text {
   font-size: 18px;
   line-height: 1.78;
+
+  margin-bottom: 46px;
   /* color: #ffffff; */
 }
 
@@ -144,20 +175,46 @@ ul {
   /* outline: 1px solid teal; */
 }
 
+.advantages-container {
+  background: teal;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.advantages-list {
+  display: flex;
+}
+
 .advantages-list__item {
-  outline: 1px solid teal;
+  outline: 1px solid rgb(128, 98, 0);
+  width: 330px;
+  align-items: center;
+}
+
+.advantages-list__item:not(:last-child) {
+  margin-right: 150px;
 }
 
 .advantages-list__text {
+  margin-bottom: 36px;
+  margin-top: 4px;
+  margin-right: 21px;
+  margin-left: 21px;
+
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
   color: #000000;
 }
 
-.advantages-list {
-  display: flex;
+.advantages-list__img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 /* ========== END ADVANTAGES ========== */
 
 /* ========== INGRIDIENTS ========== */
@@ -207,7 +264,7 @@ ul {
   display: flex;
 }
 
-. .aperitifs__head {
+.aperitifs__head {
   font-weight: 400;
   font-size: 53px;
   line-height: 1.51;
