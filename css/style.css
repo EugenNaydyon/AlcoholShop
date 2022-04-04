@@ -309,19 +309,37 @@ margin-left: auto;
   outline: 1px solid teal;
 }
 
+.aperitifs-container {
+  margin-top: 60px;
+  padding: 0 0;
+}
+
+.aperitifs__img {
+  display: block;
+  margin-bottom: 55px;
+}
+
 .aperitifs__description {
   display: flex;
+  padding: 4px 2px 95px 2px;
 }
 
 .aperitifs__head {
+  display: block;
   font-weight: 400;
   font-size: 53px;
   line-height: 1.51;
+
+  /* margin-right: 243px; */
 }
 
 .aperitifs__text {
+  display: block;
+  width: 700px;
   font-size: 18px;
   line-height: 1.78;
+
+  /* margin-left: 200px; */
 }
 
 /* ========== END APERITIFS ========== */
