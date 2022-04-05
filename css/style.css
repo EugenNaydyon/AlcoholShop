@@ -52,9 +52,7 @@
   color: #000000;
 }
 
-.setTheMood__button--spotify {
-  background-color: #ffffff;
-}
+
 
 .heads {
   font-family: var(--secondary-font);
@@ -400,9 +398,14 @@ margin-bottom: 17px;
 /* ========== REVIEWS ========== */
 .reviews {
   outline: 1px solid tomato;
+
+  background-color: #000000;
 }
 
-.reviews__description {}
+.reviews__description {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .reviews-list {
   display: flex;
@@ -410,13 +413,27 @@ margin-bottom: 17px;
 
 .reviews-list__item {
   outline: 1px solid tomato;
+
+  width: 330px;
+  margin-right: 150px;
+  padding-top: 45px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 1px;
+}
+
+.reviews-list__item:last-child {
+  margin-right: -150px;
 }
 
 .reviews-list_text {
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
-  /* color: #ffffff; */
+
+  margin-bottom: 17px;
+
+  color: #ffffff;
 }
 
 .reviews-list__reviewer {
@@ -424,7 +441,10 @@ margin-bottom: 17px;
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+
+  margin-bottom: 10px;
+
+  color: #FFFFFF;
 }
 
 .reviews-list__buyer {
@@ -443,18 +463,37 @@ margin-bottom: 17px;
 
 .manufacturing__container {
   display: flex;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.manufacturing__description {
+  width: 660px;
+
+  margin-left: auto;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .manufacturing__head {
   font-weight: 400;
   font-size: 64px;
   line-height: 1.25;
+
+  margin-bottom: 42px;
+
   color: #000000;
 }
 
 .manufacturing__text {
   font-size: 18px;
   line-height: 1.78;
+
+  margin-bottom: 35px;
+
   color: #000000;
 }
 
@@ -470,9 +509,15 @@ margin-bottom: 17px;
 /* ========== SET THE MOOD ========== */
 .setTheMood {
   background: #000;
+
   width: 550px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.mood-container {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .setTheMood__head {
@@ -480,6 +525,9 @@ margin-bottom: 17px;
   font-size: 55px;
   line-height: 1.45;
   text-align: center;
+
+  margin-bottom: 9px;
+
   color: #ffffff;
 }
 
@@ -487,11 +535,21 @@ margin-bottom: 17px;
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
+
+  margin-bottom: 26px;
+
   color: #ffffff;
+}
+
+.setTheMood__button--spotify {
+  background-color: #ffffff;
+
+  margin-left: 185px;
 }
 
 .followus {
   background: #000;
+
   width: 550px;
   padding-top: 28px;
   padding-bottom: 35px;
@@ -500,13 +558,24 @@ margin-bottom: 17px;
 
 .followus__list {
   display: flex;
+  justify-content: center;
+}
+
+.followus__item {
+  margin-right: 25px;
+}
+
+.followus__item:last-child {
+  margin-right: -25px;
 }
 
 .followus__text {
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
+
   margin-bottom: 30px;
+
   color: #ffffff;
 }
 
@@ -516,6 +585,7 @@ margin-bottom: 17px;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+
   color: #ffffff;
 }
 
@@ -528,6 +598,10 @@ margin-bottom: 17px;
 /* ========== END SET THE MOOD ========== */
 
 /* ========== FOOTER ========== */
+.footer {
+  outline: 2px solid #996B60;
+}
+
 .posted__head {
   font-weight: 400;
   font-size: 42px;
