@@ -321,11 +321,12 @@ margin-left: auto;
 
 .aperitifs__description {
   display: flex;
-  padding: 4px 2px 95px 2px;
+  padding: 4px 15px 95px 15px;
 }
 
 .aperitifs__head {
-  display: block;
+  width: 310px;
+
   font-weight: 400;
   font-size: 53px;
   line-height: 1.51;
@@ -334,12 +335,11 @@ margin-left: auto;
 }
 
 .aperitifs__text {
-  display: block;
   width: 700px;
   font-size: 18px;
   line-height: 1.78;
 
-  /* margin-left: 200px; */
+  margin-left: auto;
 }
 
 /* ========== END APERITIFS ========== */
@@ -351,12 +351,23 @@ margin-left: auto;
 
 .easyToDrink__container {
   display: flex;
+
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.easyToDrink__description {
+  width: 390px;
+  margin-right: auto;
 }
 
 .drinking-list__head {
   font-weight: 400;
   font-size: 30px;
   line-height: 1.47;
+
+margin-bottom: 19px;
+
   color: #000000;
 }
 
@@ -370,14 +381,28 @@ margin-left: auto;
   font-weight: 400;
   font-size: 36px;
   line-height: 1.23;
+
+margin-bottom: 17px;
+
   color: #000000;
 }
+
+.drinking-list__text {
+  margin-bottom: 20px;
+}
+
+.drinking-list__text--nomargin {
+  margin-bottom: -20px;
+}
+
 /* ========== END EASY TO DRINK ========== */
 
 /* ========== REVIEWS ========== */
 .reviews {
   outline: 1px solid tomato;
 }
+
+.reviews__description {}
 
 .reviews-list {
   display: flex;
