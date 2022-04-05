@@ -602,6 +602,15 @@ margin-bottom: 17px;
   outline: 2px solid #996B60;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.posted {
+  width: 440px;
+  outline: 1px solid brown;
+}
+
 .posted__head {
   font-weight: 400;
   font-size: 42px;
@@ -613,6 +622,10 @@ margin-bottom: 17px;
   font-size: 18px;
   line-height: 1.5;
   /* color: #FFFFFF; */
+}
+
+.dropus__list {
+  outline: 1px solid brown;
 }
 
 .dropus__list-head {
@@ -628,6 +641,10 @@ margin-bottom: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-copyright {
+  display: flex;
 }
 
 .footer-copyright_link {
