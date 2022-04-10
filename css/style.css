@@ -273,6 +273,7 @@ margin-left: auto;
 }
 
 .ingridients-text {
+  display: block;
   width: 250px;
   margin-bottom: 80px;
   margin-right: auto;
@@ -283,6 +284,8 @@ margin-left: auto;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  color: var(--secondary-text-color);
 }
 
 .ingridients-semples {
@@ -529,10 +532,12 @@ margin-bottom: 17px;
 }
 
 .manufacturing_link {
+  display: block;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase;
+
   color: #000000;
 }
 /* ========== END MANUFACTURING ========== */
@@ -573,9 +578,12 @@ margin-bottom: 17px;
 }
 
 .setTheMood__button--spotify {
+  display: block;
   background-color: #ffffff;
+  color: #000;
 
   margin-left: 185px;
+  padding-top: 18px;
 }
 
 .followus {
