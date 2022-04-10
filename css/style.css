@@ -147,12 +147,15 @@ margin-left: auto;
 }
 
 .hero__button--shopall {
+  display: block;
   font-weight: 400;
  font-size: 12px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  padding: 18px 32px;
 
   background-color: transparent;
   color: #000000;
@@ -188,8 +191,8 @@ margin-left: auto;
   width: 330px;
   align-items: center;
   padding-top: 4px;
-  padding-right: 21px;
-  padding-left: 21px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .advantages-list__item:not(:last-child) {
@@ -205,6 +208,7 @@ margin-left: auto;
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
+
   color: #000000;
 }
 
@@ -213,6 +217,34 @@ margin-left: auto;
   margin-right: auto;
   margin-left: auto;
   /* padding-bottom: 40px; */
+}
+
+.advantages-list__text--foodwine::after {
+  display: block;
+  height: 50px;
+  background-image: url("../images/advent/foodwine.png");
+  content: '';
+  margin-top: 36px;
+}
+
+.advantages-list__text--newyork::after {
+  display: block;
+  content: '';
+  height: 50px;
+  background-image: url("../images/advent/new-work-times.png");
+  margin-top: 36px;
+}
+
+.advantages-list__text--newyork::after {
+  margin-bottom: -36px;
+}
+
+.advantages-list__text--bonappetit::after {
+  display: block;
+  content: '';
+  height: 50px;
+  background-image: url("../images/advent/bonappetit.png");
+  margin-top: 36px;
 }
 
 /* ========== END ADVANTAGES ========== */
