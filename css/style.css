@@ -21,7 +21,7 @@
 
 /* ========== COMPONENTS and UTILITES========== */
 .container {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   width: 1320px;
   margin-right: auto;
   margin-left: auto;
@@ -67,9 +67,10 @@ ul {
 
 /* ========== HEADER ========== */
 
-/* .header {
-  outline: 2px solid tomato;
-} */
+.header {
+  position: absolute;
+  left: 60px;
+}
 
 .site-nav__list {
   display: flex;
@@ -93,23 +94,23 @@ ul {
   margin-right: 64px;
 }
 
-.logo {
+/* .logo {
   background-color: aquamarine;
-}
+} */
 
 .site-nav__link {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
-.site-nav__link:hover,
+/* .site-nav__link:hover,
 .site-nav__link:focus {
   font-weight: 700;
   font-size: 16px;
-}
+} */
 
 /* ========== END HEADER ========== */
 
@@ -117,7 +118,7 @@ ul {
 
 .hero {
   display: flex;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   background-color: #996B60;
 }
 
@@ -168,18 +169,20 @@ margin-left: auto;
 
 .advantages {
   /* outline: 1px solid teal; */
-    background-color: yellow;
+    /* background-color: yellow; */
     padding-top: 55px;
     padding-bottom: 55px;
 }
 
 .advantages-container {
-  background: teal;
+  /* background: teal; */
   /* margin-top: 55px; */
   /* margin-bottom: 55px; */
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 40px;
+
+  border-bottom: 1px solid #BDBDBD;
 }
 
 .advantages-list {
@@ -187,7 +190,7 @@ margin-left: auto;
 }
 
 .advantages-list__item {
-  outline: 1px solid rgb(128, 98, 0);
+  /* outline: 1px solid rgb(128, 98, 0); */
   width: 330px;
   align-items: center;
   padding-top: 4px;
@@ -251,13 +254,15 @@ margin-left: auto;
 
 /* ========== INGRIDIENTS ========== */
 .ingridients {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .ingridients-container {
   padding-top: 50px;
   padding-bottom: 61px;
-  background-color: bisque;
+  /* background-color: bisque; */
+
+  border-bottom: 1px solid #BDBDBD;
 }
 
 .ingridients-head {
@@ -340,12 +345,13 @@ margin-left: auto;
 
 /* ========== APERITIFS ========== */
 .aperitifs {
-  outline: 1px solid teal;
+  /* outline: 1px solid teal; */
   padding-top: 60px;
 }
 
 .aperitifs-container {
   padding: 0 0;
+  border-bottom: 1px solid #BDBDBD;
 }
 
 .aperitifs__img {
@@ -378,7 +384,7 @@ margin-left: auto;
 
 /* ========== EASY TO DRINK ========== */
 .easyToDrink {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .easyToDrink__container {
@@ -431,7 +437,7 @@ margin-bottom: 17px;
 
 /* ========== REVIEWS ========== */
 .reviews {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 
   background-color: #000000;
 }
@@ -446,7 +452,7 @@ margin-bottom: 17px;
 }
 
 .reviews-list__item {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 
   width: 330px;
   margin-right: 150px;
@@ -492,7 +498,7 @@ margin-bottom: 17px;
 
 /* ========== MANUFACTURING ========== */
 .manufacturing {
-  outline: 1px solid teal;
+  /* outline: 1px solid teal; */
 }
 
 .manufacturing__container {
@@ -543,7 +549,20 @@ margin-bottom: 17px;
 /* ========== END MANUFACTURING ========== */
 
 /* ========== SET THE MOOD ========== */
+.mood {
+  position: relative;
+  height: 568px;
+
+  background-image: url("../images/set-the-mood/set-the-mood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .setTheMood {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+
   background: #000;
 
   width: 550px;
@@ -587,6 +606,9 @@ margin-bottom: 17px;
 }
 
 .followus {
+  position: absolute;
+  top:365px;
+
   background: #000;
 
   width: 550px;
@@ -634,11 +656,22 @@ margin-bottom: 17px;
   font-weight: 700;
 }
 
+.icon-instagram {
+  fill:#ffffff;
+}
+
+.icon-twitter {
+  fill: #ffffff;
+}
+
+.icon-facebook {
+  fill: #FFFFFF;
+}
 /* ========== END SET THE MOOD ========== */
 
 /* ========== FOOTER ========== */
 .footer {
-  outline: 2px solid #996B60;
+  /* outline: 2px solid #996B60; */
   background-color: #000000;
 
   padding-top: 45px;
@@ -655,7 +688,7 @@ margin-bottom: 17px;
 
 .posted {
   width: 440px;
-  outline: 1px solid brown;
+  /* outline: 1px solid brown; */
 
   margin-bottom: 116px;
   margin-right: auto;
@@ -687,7 +720,7 @@ margin-bottom: 17px;
 }
 
 .dropus__list {
-  outline: 1px solid brown;
+  /* outline: 1px solid brown; */
   width: 218px;
 }
 
