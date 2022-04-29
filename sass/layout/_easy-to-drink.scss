@@ -1,0 +1,49 @@
+.easyToDrink {
+    /* outline: 1px solid tomato; */
+}
+
+.easyToDrink__container {
+    display: flex;
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.easyToDrink__description {
+    width: 390px;
+    margin-right: auto;
+}
+
+.drinking-list__head {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.47;
+
+    margin-bottom: 19px;
+
+    color: #000000;
+}
+
+.drinking-list__text {
+    font-size: 18px;
+    line-height: 1.78;
+    color: #000000;
+}
+
+.drinking-list__head--natural {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.23;
+
+    margin-bottom: 17px;
+
+    color: #000000;
+}
+
+.drinking-list__text {
+    margin-bottom: 20px;
+}
+
+.drinking-list__text--nomargin {
+    margin-bottom: -20px;
+}

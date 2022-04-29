@@ -1,0 +1,56 @@
+.manufacturing {
+    /* outline: 1px solid teal; */
+}
+
+.manufacturing__container {
+    display: flex;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.manufacturing__description {
+    width: 660px;
+
+    margin-left: auto;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.manufacturing__head {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.25;
+
+    margin-bottom: 42px;
+
+    color: #000000;
+}
+
+.manufacturing__text {
+    font-size: 18px;
+    line-height: 1.78;
+
+    margin-bottom: 35px;
+
+    color: #000000;
+}
+
+.manufacturing_link {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    transition: transform 250ms linear;
+}
+
+.manufacturing_link:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}

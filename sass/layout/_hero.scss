@@ -1,0 +1,53 @@
+.hero {
+    display: flex;
+    /* outline: 1px solid tomato; */
+    background-color: #996B60;
+}
+
+.hero__description {
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__head {
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 1.32;
+
+    margin-bottom: 34px;
+    color: #ffffff;
+}
+
+.hero__text {
+    font-size: 18px;
+    line-height: 1.78;
+
+    margin-bottom: 46px;
+    color: #ffffff;
+}
+
+.hero__button--shopall {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    padding: 18px 32px;
+
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #ffffff;
+
+    transition: transform 250ms linear;
+}
+
+.hero__button--shopall:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}

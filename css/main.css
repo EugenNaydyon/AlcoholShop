@@ -7,19 +7,20 @@
   --secondary-font: 'Roboto Serif', serif;
 }
 
-/* ========== BODY ==========*/
-.body {
-  width: 1440px;
-  background-color: var(--body-background-color);
-  color: var(--secondary-text-color);
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
+.list {
+  list-style: none;
 }
 
-/* ========== END BODY ==========*/
+.link {
+  text-decoration: none;
+}
 
-/* ========== COMPONENTS and UTILITES========== */
+p,
+ul {
+  margin: 0 0;
+  padding: 0 0;
+}
+
 .container {
   /* outline: 2px solid tomato; */
   width: 1320px;
@@ -29,12 +30,13 @@
   padding-right: 15px;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
+.body {
+  width: 1440px;
+  background-color: var(--body-background-color);
+  color: var(--secondary-text-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .button {
@@ -57,15 +59,66 @@
   margin: 0 0;
 }
 
-p,
-ul {
-  margin: 0 0;
-  padding: 0 0;
+.icon-instagram,
+.icon-twitter,
+.icon-facebook {
+  fill: #ffffff;
+  transition: transform 250ms linear;
 }
 
-/* ========== END COMPONENTS ========== */
+.icon-instagram:hover,
+.icon-twitter:hover,
+.icon-facebook:hover {
+  transform: scale(1.2);
+}
 
-/* ========== HEADER ========== */
+.form {
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  margin-top: 14px;
+  color: #FFFFFF;
+}
+
+.signup-form__container {
+  /* outline: 1px solid tomato; */
+  display: flex;
+  width: 440px;
+  height: 53px;
+  padding: 18px 0px 21px 9px;
+  border-bottom: 1px solid #8A8A8A;
+}
+
+.signup-form__input {
+  display: block;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.56;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: #818181;
+  background-color: black;
+  border: none;
+}
+
+.signup-form__button {
+  display: block;
+  margin-left: auto;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  background-color: var(--button-background-color);
+  border: none;
+  cursor: pointer;
+}
 
 .header {
   position: absolute;
@@ -86,7 +139,7 @@ ul {
   margin-left: auto;
 }
 
-.site-nav__item:nth-child(5){
+.site-nav__item:nth-child(5) {
   margin-right: 64px;
 }
 
@@ -114,18 +167,12 @@ ul {
   position: absolute;
   left: -1px;
   top: 20px;
-
   content: "";
   width: 100%;
   height: 4px;
   background-color: #FFFFFF;
-
   border-radius: 4px;
 }
-
-/* .logo {
-  background-color: aquamarine;
-} */
 
 .site-nav__link {
   font-size: 12px;
@@ -135,16 +182,6 @@ ul {
   color: #FFFFFF;
 }
 
-/* .site-nav__link:hover,
-.site-nav__link:focus {
-  font-weight: 700;
-  font-size: 16px;
-} */
-
-/* ========== END HEADER ========== */
-
-/* ========== HERO ========== */
-
 .hero {
   display: flex;
   /* outline: 1px solid tomato; */
@@ -152,18 +189,17 @@ ul {
 }
 
 .hero__description {
-width: 600px;
-margin-top: auto;
-margin-bottom: 100px;
-margin-right: auto;
-margin-left: auto;
+  width: 600px;
+  margin-top: auto;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero__head {
   font-weight: 400;
   font-size: 73px;
   line-height: 1.32;
-
   margin-bottom: 34px;
   color: #ffffff;
 }
@@ -171,7 +207,6 @@ margin-left: auto;
 .hero__text {
   font-size: 18px;
   line-height: 1.78;
-
   margin-bottom: 46px;
   color: #ffffff;
 }
@@ -184,13 +219,10 @@ margin-left: auto;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-
   padding: 18px 32px;
-
   background-color: transparent;
   color: #000000;
   border: 1px solid #ffffff;
-
   transition: transform 250ms linear;
 }
 
@@ -198,25 +230,17 @@ margin-left: auto;
   transform: scale(1.2);
   font-weight: bold;
 }
-/* ========== END HERO ========== */
-
-/* ========== ADVANTAGES ========== */
 
 .advantages {
   /* outline: 1px solid teal; */
-    /* background-color: yellow; */
-    padding-top: 55px;
-    padding-bottom: 55px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .advantages-container {
-  /* background: teal; */
-  /* margin-top: 55px; */
-  /* margin-bottom: 55px; */
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 40px;
-
   border-bottom: 1px solid #BDBDBD;
 }
 
@@ -239,14 +263,9 @@ margin-left: auto;
 
 .advantages-list__text {
   margin-bottom: 36px;
-  /* margin-top: 4px; */
-  /* margin-right: 21px; */
-  /* margin-left: 21px; */
-
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
-
   color: #000000;
 }
 
@@ -254,7 +273,6 @@ margin-left: auto;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  /* padding-bottom: 40px; */
 }
 
 .advantages-list__text--foodwine::after {
@@ -285,9 +303,6 @@ margin-left: auto;
   margin-top: 36px;
 }
 
-/* ========== END ADVANTAGES ========== */
-
-/* ========== INGRIDIENTS ========== */
 .ingridients {
   /* outline: 1px solid tomato; */
 }
@@ -295,8 +310,6 @@ margin-left: auto;
 .ingridients-container {
   padding-top: 50px;
   padding-bottom: 61px;
-  /* background-color: bisque; */
-
   border-bottom: 1px solid #BDBDBD;
 }
 
@@ -305,7 +318,6 @@ margin-left: auto;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 24px;
-
   font-weight: 400;
   font-size: 64px;
   line-height: 1.25;
@@ -318,15 +330,12 @@ margin-left: auto;
   margin-bottom: 80px;
   margin-right: auto;
   margin-left: auto;
-
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-
   color: var(--secondary-text-color);
-
   transition: transform 250ms linear;
 }
 
@@ -365,7 +374,6 @@ margin-left: auto;
   font-size: 30px;
   line-height: 1.47;
   text-align: center;
-
   margin-bottom: 16px;
 }
 
@@ -373,7 +381,6 @@ margin-left: auto;
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
-
   margin-bottom: 27px;
 }
 
@@ -381,7 +388,6 @@ margin-left: auto;
   display: block;
   margin: 0 auto;
   color: #ffffff;
-
   transition: transform 250ms linear;
 }
 
@@ -389,9 +395,7 @@ margin-left: auto;
   transform: scale(1.2);
   font-weight: bold;
 }
-/* ========== END INGRIDIENTS ========== */
 
-/* ========== APERITIFS ========== */
 .aperitifs {
   /* outline: 1px solid teal; */
   padding-top: 60px;
@@ -414,7 +418,6 @@ margin-left: auto;
 
 .aperitifs__head {
   width: 310px;
-
   font-weight: 400;
   font-size: 53px;
   line-height: 1.51;
@@ -424,20 +427,15 @@ margin-left: auto;
   width: 700px;
   font-size: 18px;
   line-height: 1.78;
-
   margin-left: auto;
 }
 
-/* ========== END APERITIFS ========== */
-
-/* ========== EASY TO DRINK ========== */
 .easyToDrink {
   /* outline: 1px solid tomato; */
 }
 
 .easyToDrink__container {
   display: flex;
-
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -451,9 +449,7 @@ margin-left: auto;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.47;
-
-margin-bottom: 19px;
-
+  margin-bottom: 19px;
   color: #000000;
 }
 
@@ -467,9 +463,7 @@ margin-bottom: 19px;
   font-weight: 400;
   font-size: 36px;
   line-height: 1.23;
-
-margin-bottom: 17px;
-
+  margin-bottom: 17px;
   color: #000000;
 }
 
@@ -481,12 +475,8 @@ margin-bottom: 17px;
   margin-bottom: -20px;
 }
 
-/* ========== END EASY TO DRINK ========== */
-
-/* ========== REVIEWS ========== */
 .reviews {
   /* outline: 1px solid tomato; */
-
   background-color: #000000;
 }
 
@@ -501,7 +491,6 @@ margin-bottom: 17px;
 
 .reviews-list__item {
   /* outline: 1px solid tomato; */
-
   width: 330px;
   margin-right: 150px;
   padding-top: 45px;
@@ -518,9 +507,7 @@ margin-bottom: 17px;
   font-size: 18px;
   line-height: 1.78;
   text-align: center;
-
   margin-bottom: 17px;
-
   color: #ffffff;
 }
 
@@ -529,9 +516,7 @@ margin-bottom: 17px;
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
-
   margin-bottom: 10px;
-
   color: #FFFFFF;
 }
 
@@ -542,23 +527,19 @@ margin-bottom: 17px;
   text-transform: capitalize;
   color: #8a8a8a;
 }
-/* ========== END REVIEWS ========== */
 
-/* ========== MANUFACTURING ========== */
 .manufacturing {
   /* outline: 1px solid teal; */
 }
 
 .manufacturing__container {
   display: flex;
-
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .manufacturing__description {
   width: 660px;
-
   margin-left: auto;
   padding-top: 2px;
   padding-bottom: 5px;
@@ -570,18 +551,14 @@ margin-bottom: 17px;
   font-weight: 400;
   font-size: 64px;
   line-height: 1.25;
-
   margin-bottom: 42px;
-
   color: #000000;
 }
 
 .manufacturing__text {
   font-size: 18px;
   line-height: 1.78;
-
   margin-bottom: 35px;
-
   color: #000000;
 }
 
@@ -591,9 +568,7 @@ margin-bottom: 17px;
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase;
-
   color: #000000;
-
   transition: transform 250ms linear;
 }
 
@@ -601,13 +576,10 @@ margin-bottom: 17px;
   transform: scale(1.2);
   font-weight: bold;
 }
-/* ========== END MANUFACTURING ========== */
 
-/* ========== SET THE MOOD ========== */
 .mood {
   position: relative;
   height: 568px;
-
   background-image: url("../images/set-the-mood/set-the-mood.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -617,9 +589,7 @@ margin-bottom: 17px;
   position: absolute;
   left: 60px;
   top: 60px;
-
   background: #000;
-
   width: 550px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -635,9 +605,7 @@ margin-bottom: 17px;
   font-size: 55px;
   line-height: 1.45;
   text-align: center;
-
   margin-bottom: 9px;
-
   color: #ffffff;
 }
 
@@ -645,9 +613,7 @@ margin-bottom: 17px;
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
-
   margin-bottom: 26px;
-
   color: #ffffff;
 }
 
@@ -655,10 +621,8 @@ margin-bottom: 17px;
   display: block;
   background-color: #ffffff;
   color: #000;
-
   margin-left: 185px;
   padding-top: 18px;
-
   transition: transform 250ms linear;
 }
 
@@ -669,10 +633,8 @@ margin-bottom: 17px;
 
 .followus {
   position: absolute;
-  top:365px;
-
+  top: 365px;
   background: #000;
-
   width: 550px;
   padding-top: 28px;
   padding-bottom: 35px;
@@ -696,9 +658,7 @@ margin-bottom: 17px;
   font-size: 16px;
   line-height: 1.75;
   text-align: center;
-
   margin-bottom: 30px;
-
   color: #ffffff;
 }
 
@@ -708,7 +668,6 @@ margin-bottom: 17px;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
@@ -718,34 +677,15 @@ margin-bottom: 17px;
   font-weight: 700;
 }
 
-.icon-instagram,
-.icon-twitter,
-.icon-facebook {
-  fill:#ffffff;
-
-  transition: transform 250ms linear;
-}
-
-.icon-instagram:hover,
-.icon-twitter:hover,
-.icon-facebook:hover {
-  transform: scale(1.2);
-}
-
-/* ========== END SET THE MOOD ========== */
-
-/* ========== FOOTER ========== */
 .footer {
   /* outline: 2px solid #996B60; */
   background-color: #000000;
-
   padding-top: 45px;
   padding-bottom: 40px;
 }
 
 .footer-container {
   display: flex;
-
   margin-left: 60px;
   margin-right: 60px;
   margin-bottom: 125px;
@@ -754,7 +694,6 @@ margin-bottom: 17px;
 .posted {
   width: 440px;
   /* outline: 1px solid brown; */
-
   margin-bottom: 116px;
   margin-right: auto;
 }
@@ -772,64 +711,6 @@ margin-bottom: 17px;
   color: #FFFFFF;
 }
 
-.form {
-  font-size: 12px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.12px;
-  text-transform: uppercase;
-
-  margin-top: 14px;
-  
-  color: #FFFFFF;
-}
-
-.signup-form__container {
-  /* outline: 1px solid tomato; */
-  display: flex;
-  width: 440px;
-  height: 53px;
-  padding: 18px 0px 21px 9px;
-
-  border-bottom: 1px solid #8A8A8A;;
-}
-
-.signup-form__input {
-  display: block;
-
-  font-weight: 400;
-  font-size: 9px;
-  line-height: 1.56;
-
-  text-align: center;
-  letter-spacing: 0.12px;
-  text-transform: uppercase;
-  
-  color: #818181;
-  background-color: black;
-  border: none;
-}
-
-.signup-form__button {
-  display: block;
-  margin-left: auto;
-  padding: 0;
-
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1,17;
-
-  text-align: center;
-  letter-spacing: 0.12px;
-  text-transform: uppercase;
-  
-  color: var(--primary-text-color);
-  background-color: var(--button-background-color);
-
-  border: none;
-  cursor: pointer;
-}
-
 .dropus__list {
   width: 218px;
 }
@@ -838,9 +719,7 @@ margin-bottom: 17px;
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
-
   margin-bottom: 23px;
-
   color: #ffffff;
 }
 
@@ -849,15 +728,12 @@ margin-bottom: 17px;
 }
 
 .dropus__link {
-display: inline-block;
-
+  display: inline-block;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase;
-
   color: rgba(255, 255, 255, 0.6);
-
   transition: transform 250ms linear;
 }
 
@@ -877,18 +753,14 @@ display: inline-block;
 .footer-copyright_link {
   font-size: 16px;
   line-height: 1.5;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-copyright_item {
   font-size: 15px;
   line-height: 1.6;
-
   margin-right: 60px;
-
   color: #FFFFFF;
-
   transition: transform 250ms linear;
 }
 
@@ -899,4 +771,4 @@ display: inline-block;
 .footer-copyright_item:last-child {
   margin-right: -60px;
 }
-/* ========== END FOOTER ========== */
+/*# sourceMappingURL=main.css.map */

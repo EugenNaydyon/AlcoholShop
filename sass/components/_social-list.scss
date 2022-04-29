@@ -1,0 +1,13 @@
+.icon-instagram,
+.icon-twitter,
+.icon-facebook {
+    fill: #ffffff;
+
+    transition: transform 250ms linear;
+}
+
+.icon-instagram:hover,
+.icon-twitter:hover,
+.icon-facebook:hover {
+    transform: scale(1.2);
+}

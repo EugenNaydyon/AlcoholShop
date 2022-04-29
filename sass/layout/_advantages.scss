@@ -1,0 +1,74 @@
+.advantages {
+    /* outline: 1px solid teal; */
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.advantages-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-list__item {
+    /* outline: 1px solid rgb(128, 98, 0); */
+    width: 330px;
+    align-items: center;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.advantages-list__item:not(:last-child) {
+    margin-right: 150px;
+}
+
+.advantages-list__text {
+    margin-bottom: 36px;
+
+    font-size: 18px;
+    line-height: 1.78;
+    text-align: center;
+
+    color: #000000;
+}
+
+.advantages-list__img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.advantages-list__text--foodwine::after {
+    display: block;
+    height: 50px;
+    background-image: url("../images/advent/foodwine.png");
+    content: '';
+    margin-top: 36px;
+}
+
+.advantages-list__text--newyork::after {
+    display: block;
+    content: '';
+    height: 50px;
+    background-image: url("../images/advent/new-work-times.png");
+    margin-top: 36px;
+}
+
+.advantages-list__text--newyork::after {
+    margin-bottom: -36px;
+}
+
+.advantages-list__text--bonappetit::after {
+    display: block;
+    content: '';
+    height: 50px;
+    background-image: url("../images/advent/bonappetit.png");
+    margin-top: 36px;
+}
