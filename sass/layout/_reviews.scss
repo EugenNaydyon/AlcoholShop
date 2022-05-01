@@ -22,11 +22,13 @@
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 1px;
+
+        &:last-child {
+            margin-right: -150px;
+        }
 }
 
-.reviews-list__item:last-child {
-    margin-right: -150px;
-}
+
 
 .reviews-list_text {
     font-size: 18px;

@@ -45,9 +45,10 @@
     border: 1px solid #ffffff;
 
     transition: transform 250ms linear;
+
+        &:hover {
+            transform: scale(1.2);
+            font-weight: bold;
+        }
 }
 
-.hero__button--shopall:hover {
-    transform: scale(1.2);
-    font-weight: bold;
-}

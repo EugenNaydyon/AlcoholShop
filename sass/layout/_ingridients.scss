@@ -37,11 +37,11 @@
     color: var(--secondary-text-color);
 
     transition: transform 250ms linear;
-}
 
-.ingridients-text:hover {
-    transform: scale(1.2);
-    font-weight: bold;
+        &:hover {
+            transform: scale(1.2);
+            font-weight: bold;
+        }
 }
 
 .ingridients-semples {
@@ -56,10 +56,10 @@
 
 .ingridients-list__item {
     width: 382px;
-}
 
-.ingridients-list__item:not(:last-child) {
-    margin-right: 55px;
+        &:not(:last-child) {
+            margin-right: 55px;
+        }
 }
 
 .ingridients-description {
@@ -92,9 +92,10 @@
     color: #ffffff;
 
     transition: transform 250ms linear;
+
+        &:hover {
+            transform: scale(1.2);
+            font-weight: bold;
+        }
 }
 
-.ingridients__button--buynow:hover {
-    transform: scale(1.2);
-    font-weight: bold;
-}

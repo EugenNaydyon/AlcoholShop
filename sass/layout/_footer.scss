@@ -64,11 +64,13 @@
     color: rgba(255, 255, 255, 0.6);
 
     transition: transform 250ms linear;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
-.dropus__link:hover {
-    transform: scale(1.2);
-}
+
 
 .footer-copyright {
     display: flex;
@@ -95,12 +97,13 @@
     color: #FFFFFF;
 
     transition: transform 250ms linear;
+
+        &:hover:not(:nth-child(1)) {
+            transform: scale(1.2);
+        }
+        
+        &:last-child {
+            margin-right: -60px;
+        }
 }
 
-.footer-copyright_item:hover:not(:nth-child(1)) {
-    transform: scale(1.2);
-}
-
-.footer-copyright_item:last-child {
-    margin-right: -60px;
-}

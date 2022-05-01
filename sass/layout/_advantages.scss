@@ -23,10 +23,10 @@
     padding-top: 4px;
     padding-right: 15px;
     padding-left: 15px;
-}
 
-.advantages-list__item:not(:last-child) {
-    margin-right: 150px;
+    &:not(:last-child) {
+        margin-right: 150px;
+    }
 }
 
 .advantages-list__text {

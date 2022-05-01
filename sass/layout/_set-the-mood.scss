@@ -54,12 +54,14 @@
     padding-top: 18px;
 
     transition: transform 250ms linear;
+
+        &:hover {
+            transform: scale(1.2);
+            font-weight: bold;
+        }
 }
 
-.setTheMood__button--spotify:hover {
-    transform: scale(1.2);
-    font-weight: bold;
-}
+
 
 .followus {
     position: absolute;
@@ -80,10 +82,10 @@
 
 .followus__item {
     margin-right: 25px;
-}
 
-.followus__item:last-child {
-    margin-right: -25px;
+        &:last-child {
+            margin-right: -25px;
+        }
 }
 
 .followus__text {
@@ -104,10 +106,10 @@
     text-transform: uppercase;
 
     color: #ffffff;
-}
 
-.followus__link:hover,
-.followus__link:focus {
-    font-size: 16px;
-    font-weight: 700;
+    &:hover,
+    &:focus {
+        font-size: 16px;
+        font-weight: 700;
+    }
 }
