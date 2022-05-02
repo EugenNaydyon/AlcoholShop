@@ -1,2 +1,2 @@
 # AlcoholShop
-Training develop
+Training develop of the Lending
