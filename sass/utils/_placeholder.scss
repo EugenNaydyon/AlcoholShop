@@ -1,0 +1,13 @@
+%margin-center {
+    margin-right: auto;
+    margin-left: auto;
+    // @extend %margin-center;
+}
+
+%style-of-after {
+    display: block;
+    content: '';
+    height: 50px;
+    margin-top: 36px;
+    // @extend %style-of-after;
+}

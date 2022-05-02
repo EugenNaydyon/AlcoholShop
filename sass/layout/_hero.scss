@@ -5,11 +5,10 @@
 }
 
 .hero__description {
+    @extend %margin-center;
     width: 600px;
     margin-top: auto;
     margin-bottom: 100px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .hero__head {

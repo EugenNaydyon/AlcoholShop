@@ -10,9 +10,9 @@
 }
 
 .ingridients-head {
-    width: 760px;
     margin-right: auto;
     margin-left: auto;
+    width: 760px;
     margin-bottom: 24px;
 
     font-weight: 400;
@@ -22,11 +22,10 @@
 }
 
 .ingridients-text {
+    @extend %margin-center;
     display: block;
     width: 250px;
     margin-bottom: 80px;
-    margin-right: auto;
-    margin-left: auto;
 
     font-size: 12px;
     line-height: 1.5;

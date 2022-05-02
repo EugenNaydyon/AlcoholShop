@@ -5,10 +5,8 @@
 }
 
 .advantages-container {
-    margin-right: auto;
-    margin-left: auto;
+    @extend %margin-center;
     padding-bottom: 40px;
-
     border-bottom: 1px solid #BDBDBD;
 }
 
@@ -40,35 +38,25 @@
 }
 
 .advantages-list__img {
+    @extend %margin-center;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .advantages-list__text--foodwine::after {
-    display: block;
-    height: 50px;
+    @extend %style-of-after;
     background-image: url("../images/advent/foodwine.png");
-    content: '';
-    margin-top: 36px;
 }
 
 .advantages-list__text--newyork::after {
-    display: block;
-    content: '';
-    height: 50px;
+    @extend %style-of-after;
     background-image: url("../images/advent/new-work-times.png");
-    margin-top: 36px;
-}
-
-.advantages-list__text--newyork::after {
-    margin-bottom: -36px;
 }
 
 .advantages-list__text--bonappetit::after {
-    display: block;
-    content: '';
-    height: 50px;
+    @extend %style-of-after;
     background-image: url("../images/advent/bonappetit.png");
-    margin-top: 36px;
+}
+
+.advantages-list__text--newyork {
+    margin-bottom: 0;
 }
