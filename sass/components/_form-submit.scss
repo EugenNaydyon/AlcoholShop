@@ -1,6 +1,7 @@
 .form {
-    font-size: 12px;
-    line-height: 1.17;
+    @include font(12px, 14px);
+    // font-size: 12px;
+    // line-height: 1.17;
     text-align: center;
     letter-spacing: 0.12px;
     text-transform: uppercase;
@@ -11,23 +12,23 @@
 }
 
 .signup-form__container {
+    @include padding (18px, 0px, 21px, 9px);
     /* outline: 1px solid tomato; */
     display: flex;
     width: 440px;
     height: 53px;
-    padding: 18px 0px 21px 9px;
+    // padding: 18px 0px 21px 9px;
 
     border-bottom: 1px solid #8A8A8A;
     ;
 }
 
 .signup-form__input {
+    @include font(9px, 14px);
     display: block;
 
-    font-weight: 400;
-    font-size: 9px;
-    line-height: 1.56;
-
+    // font-size: 9px;
+    // line-height: 1.56;
     text-align: center;
     letter-spacing: 0.12px;
     text-transform: uppercase;
@@ -38,13 +39,13 @@
 }
 
 .signup-form__button {
+    @include font(12px, 20px);
     display: block;
     margin-left: auto;
     padding: 0;
 
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1, 17;
+    // font-size: 12px;
+    // line-height: 1.7;
 
     text-align: center;
     letter-spacing: 0.12px;
