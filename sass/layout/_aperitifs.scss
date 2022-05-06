@@ -1,35 +1,62 @@
-.aperitifs {
-    /* outline: 1px solid teal; */
-    padding-top: 60px;
-}
-
 .aperitifs-container {
     padding: 0 0;
     border-bottom: 1px solid #BDBDBD;
 }
 
-.aperitifs__img {
-    display: block;
-    margin-bottom: 55px;
+.aperitifs {
+    /* outline: 1px solid teal; */
+    padding-top: 60px;
+
+    &__img {
+        display: block;
+        margin-bottom: 55px;
+    }
+
+    &__description {
+        display: flex;
+        @include padding (4px, 15px, 95px, 15px);
+    }
+
+    &__head {
+        width: 310px;
+        font-weight: 400;
+        @include font(53px, 80px);
+    }
+
+    &__text {
+        width: 700px;
+        @include font(18px, 32px);
+        margin-left: auto;
+    }
 }
 
-.aperitifs__description {
-    display: flex;
-    padding: 4px 15px 95px 15px;
-}
+// .aperitifs {
+//     /* outline: 1px solid teal; */
+//     padding-top: 60px;
+// }
 
-.aperitifs__head {
-    width: 310px;
+// .aperitifs__img {
+//     display: block;
+//     margin-bottom: 55px;
+// }
 
-    font-weight: 400;
-    font-size: 53px;
-    line-height: 1.51;
-}
+// .aperitifs__description {
+//     display: flex;
+//     padding: 4px 15px 95px 15px;
+// }
 
-.aperitifs__text {
-    width: 700px;
-    font-size: 18px;
-    line-height: 1.78;
+// .aperitifs__head {
+//     width: 310px;
 
-    margin-left: auto;
-}
+//     font-weight: 400;
+//     font-size: 53px;
+//     line-height: 1.51;
+// }
+
+// .aperitifs__text {
+//     width: 700px;
+//     font-size: 18px;
+//     line-height: 1.78;
+
+//     margin-left: auto;
+// }

@@ -16,92 +16,179 @@
 
 .posted {
     width: 440px;
-    /* outline: 1px solid brown; */
 
     margin-bottom: 116px;
     margin-right: auto;
-}
 
-.posted__head {
-    font-weight: 400;
-    font-size: 42px;
-    line-height: 1.72;
-    color: #FFFFFF;
-}
+    &__head {
+        font-weight: 400;
+        @include font(42px, 72px);
 
-.posted__text {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #FFFFFF;
-}
+        color: #FFFFFF;
+    }
 
-.dropus__list {
-    width: 218px;
-}
-
-.dropus__list-head {
-    font-size: 14px;
-    line-height: 1.5;
-    text-transform: uppercase;
-
-    margin-bottom: 23px;
-
-    color: #ffffff;
-}
-
-.dropus__item:not(:last-child) {
-    margin-bottom: 21px;
-}
-
-.dropus__link {
-    display: inline-block;
-
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-
-    color: rgba(255, 255, 255, 0.6);
-
-    transition: transform 250ms linear;
-
-    &:hover {
-        transform: scale(1.2);
+    &__text {
+        @include font(18px, 27px);
+        color: #FFFFFF;
     }
 }
 
-.footer-copyright {
-    display: flex;
+// .posted {
+//     width: 440px;
+//     /* outline: 1px solid brown; */
+
+//     margin-bottom: 116px;
+//     margin-right: auto;
+// }
+
+// .posted__head {
+//     font-weight: 400;
+//     font-size: 42px;
+//     line-height: 1.72;
+//     color: #FFFFFF;
+// }
+
+// .posted__text {
+//     font-size: 18px;
+//     line-height: 1.5;
+//     color: #FFFFFF;
+// }
+
+
+.dropus {
+    &__list {
+        width: 218px;
+    }
+
+    &__list-head {
+        @include font(14px, 21px);
+        text-transform: uppercase;
+
+        margin-bottom: 23px;
+
+        color: #ffffff;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 21px;
+    }
+
+    &__link {
+        display: inline-block;
+        @include font(12px, 18px);
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: rgba(255, 255, 255, 0.6);
+
+        transition: transform 250ms linear;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
 }
+
+// .dropus__list {
+//     width: 218px;
+// }
+
+// .dropus__list-head {
+//     font-size: 14px;
+//     line-height: 1.5;
+//     text-transform: uppercase;
+
+//     margin-bottom: 23px;
+
+//     color: #ffffff;
+// }
+
+// .dropus__item:not(:last-child) {
+//     margin-bottom: 21px;
+// }
+
+// .dropus__link {
+//     display: inline-block;
+
+//     font-size: 12px;
+//     line-height: 1.5;
+//     letter-spacing: 1px;
+//     text-transform: uppercase;
+
+//     color: rgba(255, 255, 255, 0.6);
+
+//     transition: transform 250ms linear;
+
+//     &:hover {
+//         transform: scale(1.2);
+//     }
+// }
 
 .container-copyright {
     margin-left: 60px;
     margin-right: 60px;
 }
 
-.footer-copyright_link {
-    font-size: 16px;
-    line-height: 1.5;
+.footer-copyright {
+    display: flex;
 
-    color: rgba(255, 255, 255, 0.6);
-}
+    &__link {
+        @include font(16px, 24px);
 
-.footer-copyright_item {
-    font-size: 15px;
-    line-height: 1.6;
+        color: rgba(255, 255, 255, 0.6);
+    }
 
-    margin-right: 60px;
+    &__item {
+        @include font(15px, 24px);
+        // font-size: 15px;
+        // line-height: 1.6;
 
-    color: #FFFFFF;
+        margin-right: 60px;
 
-    transition: transform 250ms linear;
+        color: #FFFFFF;
+
+        transition: transform 250ms linear;
 
         &:hover:not(:nth-child(1)) {
             transform: scale(1.2);
         }
-        
+
         &:last-child {
             margin-right: -60px;
         }
+    }
+
 }
+
+
+// .footer-copyright {
+//     display: flex;
+// }
+
+// .footer-copyright__link {
+//     font-size: 16px;
+//     line-height: 1.5;
+
+//     color: rgba(255, 255, 255, 0.6);
+// }
+
+// .footer-copyright__item {
+//     font-size: 15px;
+//     line-height: 1.6;
+
+//     margin-right: 60px;
+
+//     color: #FFFFFF;
+
+//     transition: transform 250ms linear;
+
+//         &:hover:not(:nth-child(1)) {
+//             transform: scale(1.2);
+//         }
+        
+//         &:last-child {
+//             margin-right: -60px;
+//         }
+// }
 

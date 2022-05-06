@@ -1,60 +1,49 @@
 .reviews {
-    /* outline: 1px solid tomato; */
-
     background-color: #000000;
-}
 
-.reviews__description {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    &__description {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 .reviews-list {
     display: flex;
-}
 
-.reviews-list__item {
-    /* outline: 1px solid tomato; */
-
-    width: 330px;
-    margin-right: 150px;
-    padding-top: 45px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 1px;
-
+    &__item {
+    
+        width: 330px;
+        margin-right: 150px;
+        @include padding (45px, 6px, 1px, 6px);
+    
         &:last-child {
             margin-right: -150px;
         }
-}
+    }
 
+    &__text {
+        @include font(18px, 32px);
+        text-align: center;
+    
+        margin-bottom: 17px;
+    
+        color: #ffffff;
+    }
 
+    &__reviewer {
+        @include font(14px, 21px);
+        text-align: center;
+        text-transform: uppercase;
+    
+        margin-bottom: 10px;
+    
+        color: #FFFFFF;
+    }
 
-.reviews-list_text {
-    font-size: 18px;
-    line-height: 1.78;
-    text-align: center;
-
-    margin-bottom: 17px;
-
-    color: #ffffff;
-}
-
-.reviews-list__reviewer {
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-    text-transform: uppercase;
-
-    margin-bottom: 10px;
-
-    color: #FFFFFF;
-}
-
-.reviews-list__buyer {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    text-transform: capitalize;
-    color: #8a8a8a;
+    &__buyer {
+        @include font(16px, 24px);
+        text-align: center;
+        text-transform: capitalize;
+        color: #8a8a8a;
+    }
 }

@@ -1,45 +1,85 @@
-.easyToDrink__container {
-    display: flex;
+.easyToDrink {
+    &__container {
+        display: flex;
 
-    padding-top: 60px;
-    padding-bottom: 50px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    &__description {
+        width: 390px;
+        margin-right: auto;
+    }
 }
 
-.easyToDrink__description {
-    width: 390px;
-    margin-right: auto;
+.drinking-list {
+    &__head {
+        font-weight: 400;
+        @include font(30px, 44px);
+
+        margin-bottom: 19px;
+        color: #000000;
+    }
+
+    &__head--natural {
+        font-weight: 400;
+        @include font(36px, 44px);
+        margin-bottom: 17px;
+
+        color: #000000;
+    }
+
+    &__text {
+        @include font(18px, 32px);
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    &__text--nomargin {
+        margin-bottom: 0px;
+    }
 }
 
-.drinking-list__head {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 1.47;
+// .easyToDrink__container {
+//     display: flex;
 
-    margin-bottom: 19px;
+//     padding-top: 60px;
+//     padding-bottom: 50px;
+// }
 
-    color: #000000;
-}
+// .easyToDrink__description {
+//     width: 390px;
+//     margin-right: auto;
+// }
 
-.drinking-list__text {
-    font-size: 18px;
-    line-height: 1.78;
-    color: #000000;
-}
+// .drinking-list__head {
+//     font-weight: 400;
+//     font-size: 30px;
+//     line-height: 1.47;
 
-.drinking-list__head--natural {
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.23;
+//     margin-bottom: 19px;
 
-    margin-bottom: 17px;
+//     color: #000000;
+// }
 
-    color: #000000;
-}
+// .drinking-list__head--natural {
+//     font-weight: 400;
+//     font-size: 36px;
+//     line-height: 1.23;
 
-.drinking-list__text {
-    margin-bottom: 20px;
-}
+//     margin-bottom: 17px;
 
-.drinking-list__text--nomargin {
-    margin-bottom: -20px;
-}
+//     color: #000000;
+// }
+
+// .drinking-list__text {
+//     font-size: 18px;
+//     line-height: 1.78;
+//     color: #000000;
+//     margin-bottom: 20px;
+// }
+
+
+// .drinking-list__text--nomargin {
+//     margin-bottom: -20px;
+// }

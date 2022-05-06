@@ -188,7 +188,6 @@ ul {
 
 .hero {
   display: flex;
-  /* outline: 1px solid tomato; */
   background-color: #996B60;
 }
 
@@ -201,14 +200,14 @@ ul {
 .hero__head {
   font-weight: 400;
   font-size: 73px;
-  line-height: 1.32;
+  line-height: 1.31507;
   margin-bottom: 34px;
   color: #ffffff;
 }
 
 .hero__text {
   font-size: 18px;
-  line-height: 1.78;
+  line-height: 1.77778;
   margin-bottom: 46px;
   color: #ffffff;
 }
@@ -217,7 +216,7 @@ ul {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.16667;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -262,9 +261,9 @@ ul {
 }
 
 .advantages-list__text {
-  margin-bottom: 36px;
   font-size: 18px;
-  line-height: 1.78;
+  line-height: 1.77778;
+  margin-bottom: 36px;
   text-align: center;
   color: #000000;
 }
@@ -342,17 +341,10 @@ ul {
   margin-right: 55px;
 }
 
-.ingridients-description {
-  margin-top: 20px;
-  padding-top: 1px;
-  padding-right: 8px;
-  padding-left: 8px;
-}
-
 .ingridients-list__head {
   font-weight: 400;
   font-size: 30px;
-  line-height: 1.47;
+  line-height: 1.46667;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -362,6 +354,14 @@ ul {
   line-height: 1.75;
   text-align: center;
   margin-bottom: 27px;
+}
+
+.ingridients-description {
+  margin-top: 20px;
+  padding-top: 1px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 8px;
 }
 
 .ingridients__button--buynow {
@@ -376,14 +376,14 @@ ul {
   font-weight: bold;
 }
 
-.aperitifs {
-  /* outline: 1px solid teal; */
-  padding-top: 60px;
-}
-
 .aperitifs-container {
   padding: 0 0;
   border-bottom: 1px solid #BDBDBD;
+}
+
+.aperitifs {
+  /* outline: 1px solid teal; */
+  padding-top: 60px;
 }
 
 .aperitifs__img {
@@ -393,20 +393,23 @@ ul {
 
 .aperitifs__description {
   display: flex;
-  padding: 4px 15px 95px 15px;
+  padding-top: 4px;
+  padding-right: 15px;
+  padding-bottom: 95px;
+  padding-left: 15px;
 }
 
 .aperitifs__head {
   width: 310px;
   font-weight: 400;
   font-size: 53px;
-  line-height: 1.51;
+  line-height: 1.50943;
 }
 
 .aperitifs__text {
   width: 700px;
   font-size: 18px;
-  line-height: 1.78;
+  line-height: 1.77778;
   margin-left: auto;
 }
 
@@ -424,35 +427,31 @@ ul {
 .drinking-list__head {
   font-weight: 400;
   font-size: 30px;
-  line-height: 1.47;
+  line-height: 1.46667;
   margin-bottom: 19px;
-  color: #000000;
-}
-
-.drinking-list__text {
-  font-size: 18px;
-  line-height: 1.78;
   color: #000000;
 }
 
 .drinking-list__head--natural {
   font-weight: 400;
   font-size: 36px;
-  line-height: 1.23;
+  line-height: 1.22222;
   margin-bottom: 17px;
   color: #000000;
 }
 
 .drinking-list__text {
+  font-size: 18px;
+  line-height: 1.77778;
+  color: #000000;
   margin-bottom: 20px;
 }
 
 .drinking-list__text--nomargin {
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 .reviews {
-  /* outline: 1px solid tomato; */
   background-color: #000000;
 }
 
@@ -466,22 +465,21 @@ ul {
 }
 
 .reviews-list__item {
-  /* outline: 1px solid tomato; */
   width: 330px;
   margin-right: 150px;
   padding-top: 45px;
-  padding-left: 6px;
   padding-right: 6px;
   padding-bottom: 1px;
+  padding-left: 6px;
 }
 
 .reviews-list__item:last-child {
   margin-right: -150px;
 }
 
-.reviews-list_text {
+.reviews-list__text {
   font-size: 18px;
-  line-height: 1.78;
+  line-height: 1.77778;
   text-align: center;
   margin-bottom: 17px;
   color: #ffffff;
@@ -504,10 +502,6 @@ ul {
   color: #8a8a8a;
 }
 
-.manufacturing {
-  /* outline: 1px solid teal; */
-}
-
 .manufacturing__container {
   display: flex;
   padding-top: 60px;
@@ -518,9 +512,9 @@ ul {
   width: 660px;
   margin-left: auto;
   padding-top: 2px;
+  padding-right: 8px;
   padding-bottom: 5px;
   padding-left: 8px;
-  padding-right: 8px;
 }
 
 .manufacturing__head {
@@ -533,12 +527,12 @@ ul {
 
 .manufacturing__text {
   font-size: 18px;
-  line-height: 1.78;
+  line-height: 1.77778;
   margin-bottom: 35px;
   color: #000000;
 }
 
-.manufacturing_link {
+.manufacturing__link {
   display: inline-block;
   font-size: 12px;
   line-height: 1.5;
@@ -548,7 +542,7 @@ ul {
   transition: transform 250ms linear;
 }
 
-.manufacturing_link:hover {
+.manufacturing__link:hover {
   transform: scale(1.2);
   font-weight: bold;
 }
@@ -561,6 +555,11 @@ ul {
   background-size: cover;
 }
 
+.mood-container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .setTheMood {
   position: absolute;
   left: 60px;
@@ -571,15 +570,10 @@ ul {
   padding-bottom: 40px;
 }
 
-.mood-container {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 .setTheMood__head {
   font-weight: 400;
   font-size: 55px;
-  line-height: 1.45;
+  line-height: 1.43636;
   text-align: center;
   margin-bottom: 9px;
   color: #ffffff;
@@ -627,7 +621,7 @@ ul {
 }
 
 .followus__item:last-child {
-  margin-right: -25px;
+  margin-right: 0px;
 }
 
 .followus__text {
@@ -636,20 +630,6 @@ ul {
   text-align: center;
   margin-bottom: 30px;
   color: #ffffff;
-}
-
-.followus__link {
-  font-size: 12px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.followus__link:hover, .followus__link:focus {
-  font-size: 16px;
-  font-weight: 700;
 }
 
 .footer {
@@ -668,7 +648,6 @@ ul {
 
 .posted {
   width: 440px;
-  /* outline: 1px solid brown; */
   margin-bottom: 116px;
   margin-right: auto;
 }
@@ -676,7 +655,7 @@ ul {
 .posted__head {
   font-weight: 400;
   font-size: 42px;
-  line-height: 1.72;
+  line-height: 1.71429;
   color: #FFFFFF;
 }
 
@@ -716,22 +695,22 @@ ul {
   transform: scale(1.2);
 }
 
-.footer-copyright {
-  display: flex;
-}
-
 .container-copyright {
   margin-left: 60px;
   margin-right: 60px;
 }
 
-.footer-copyright_link {
+.footer-copyright {
+  display: flex;
+}
+
+.footer-copyright__link {
   font-size: 16px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-copyright_item {
+.footer-copyright__item {
   font-size: 15px;
   line-height: 1.6;
   margin-right: 60px;
@@ -739,11 +718,11 @@ ul {
   transition: transform 250ms linear;
 }
 
-.footer-copyright_item:hover:not(:nth-child(1)) {
+.footer-copyright__item:hover:not(:nth-child(1)) {
   transform: scale(1.2);
 }
 
-.footer-copyright_item:last-child {
+.footer-copyright__item:last-child {
   margin-right: -60px;
 }
 /*# sourceMappingURL=main.css.map */
