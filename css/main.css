@@ -295,22 +295,22 @@ ul {
 }
 
 .ingridients-head {
+  font-size: 64px;
+  line-height: 1.25;
   margin-right: auto;
   margin-left: auto;
   width: 760px;
   margin-bottom: 24px;
   font-weight: 400;
-  font-size: 64px;
-  line-height: 1.25;
   text-align: center;
 }
 
 .ingridients-text {
+  font-size: 12px;
+  line-height: 1.5;
   display: block;
   width: 250px;
   margin-bottom: 80px;
-  font-size: 12px;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -324,9 +324,10 @@ ul {
 }
 
 .ingridients-semples {
-  padding-left: 17px;
+  padding-top: 0px;
   padding-right: 17px;
   padding-bottom: 80px;
+  padding-left: 17px;
 }
 
 .ingridients-list {
